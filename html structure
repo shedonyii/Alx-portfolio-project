@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Book</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Recipe Book</h1>
+    <div id="recipe-entry">
+        <!-- Form to add a new recipe -->
+        <input type="text" id="recipe-name" placeholder="Recipe Name">
+        <textarea id="ingredients" placeholder="Ingredients"></textarea>
+        <textarea id="instructions" placeholder="Instructions"></textarea>
+        <input type="file" id="recipe-image" accept="image/*">
+        <button id="add-recipe">Add Recipe</button>
+    </div>
+    <div id="recipe-list">
+        <!-- List of added recipes -->
+    </div>
+    <div id="recipe-details">
+        <!-- Display recipe details here -->
+    </div>
+    <div id="search-filters">
+        <!-- Search and filter options -->
+        <input type="text" id="search" placeholder="Search by name or ingredient">
+        <select id="cuisine-filter">
+            <option value="">All Cuisines</option>
+            <!-- Add cuisine options dynamically -->
+        </select>
+        <select id="meal-type-filter">
+            <option value="">All Meal Types</option>
+            <!-- Add meal type options dynamically -->
+        </select>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
