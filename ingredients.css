@@ -1,0 +1,34 @@
+body{
+ 
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
+.img{
+    width: 30%;
+    height:500px;
+}
+
+
+.ingredient{
+    position: absolute;
+    width: 30%;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 30px;
+    top:10px ; 
+    left:500px;
+    margin-right: 400px;
+    
+}
+
+.instruction{
+    position: absolute;
+    width: 30%;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 30px;
+    top:10px ; 
+    left:1000px;
+    margin-right:400px;
+    
+}
