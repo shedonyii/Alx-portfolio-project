@@ -1,0 +1,60 @@
+/* login-style.css */
+body {
+    background: #34495e; /* Dark blue background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background: #ecf0f1; /* Light gray background color */
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+form h1 {
+    font-size: 28px;
+    color: #34495e; /* Dark blue text color */
+}
+
+form input {
+    display: block;
+    background: #f2f3f4; /* Light gray input background */
+    margin: 18px auto;
+    padding: 8px;
+    text-align: center;
+    border: 2px solid #3498db; /* Light blue border */
+    outline: none;
+    width: 80%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+form input[type="password"] {
+    margin: 10px auto; /* Slightly reduce margin for password input */
+}
+
+form input[type="button"] {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    background: #3498db; /* Light blue button background */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+p {
+    color: #e74c3c; /* Red error text color */
+    font-size: 20px;
+    font-weight: 600;
+}
+
